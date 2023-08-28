@@ -5,14 +5,14 @@
     font-family: inherit;
 }
 
+/* basic colors for different parts */
 .main-1-container,
 .foot-container {
 background-color: #1f2937;
 color: #f9faf8;
 }
 
-.main-2-container, 
-.main-4-container {
+.main-2-container {
     background-color: #f9faf8;
 }
 
@@ -20,7 +20,72 @@ color: #f9faf8;
     background-color: #e5e7eb;
 }
 
+.main-4-container {
+    background-color: #3882f6;
+}
+
 .btn {
     background-color: #3882f6;
     color: #f9faf8;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* main-1 header and navigation */
+
+.main-1-container {
+    height: 500px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.list-container {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list {
+    padding-right: 30px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.sign-up {
+    width: 50%;
+    margin-top: 150px;
+}
+
+.filler-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.filler-title {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.filler-description {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.image-holder {
+    width: 400px;
+    height: 200px;
+    background-color: #d2d2d2;
 }
