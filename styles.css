@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+.main-1-container,
+.foot-container {
+background-color: #1f2937;
+color: #f9faf8;
+}
+
+.main-2-container, 
+.main-4-container {
+    background-color: #f9faf8;
+}
+
+.main-3-container {
+    background-color: #e5e7eb;
+}
+
+.btn {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
