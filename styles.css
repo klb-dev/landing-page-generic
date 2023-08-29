@@ -6,10 +6,11 @@
 }
 
 /* basic colors for different parts */
-.main-1-container,
-.foot-container {
-background-color: #1f2937;
-color: #f9faf8;
+
+body {
+    border: 1px dotted red;
+    background-color: #1f2937;
+    color: #f9faf8;
 }
 
 .main-2-container {
@@ -27,10 +28,11 @@ color: #f9faf8;
 .btn {
     background-color: #3882f6;
     color: #f9faf8;
-    padding: 8px 15px;
+    padding: 8px 30px;
     border: none;
     border-radius: 8px;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 /* main-1 header and navigation */
@@ -63,7 +65,7 @@ color: #f9faf8;
 }
 
 .sign-up {
-    width: 50%;
+    width: 40%;
     margin-top: 150px;
 }
 
@@ -82,10 +84,20 @@ color: #f9faf8;
 .filler-description {
     font-size: 18px;
     color: #e5e7eb;
+    opacity: .8;
 }
 
 .image-holder {
     width: 400px;
     height: 200px;
-    background-color: #d2d2d2;
+    background-color: #6d747d;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.image-message {
+    margin-top: 90px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #e5e7eb;
 }
