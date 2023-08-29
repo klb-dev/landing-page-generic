@@ -13,12 +13,19 @@ body {
     color: #f9faf8;
 }
 
+.main-1-container {
+    height: 500px;
+}
+
+
 .main-2-container {
     background-color: #f9faf8;
+    height: 500px;
 }
 
 .main-3-container {
     background-color: #e5e7eb;
+    height: 400px;
 }
 
 .main-4-container {
@@ -33,7 +40,7 @@ body {
     padding: 8px 30px;
     border: none;
     border-radius: 8px;
-    font-weight: bold;
+    font-weight: 900;
     margin-top: 10px;
 }
 
@@ -43,9 +50,6 @@ body {
 
 /* main-1 header and navigation */
 
-.main-1-container {
-    height: 500px;
-}
 
 .nav-container {
     display: flex;
@@ -110,10 +114,6 @@ body {
 
 /* random information section */
 
-.main-2-container {
-    height: 500px;
-}
-
 .img-container {
     display: flex;
     justify-content: center;
@@ -152,11 +152,6 @@ body {
 
 /* quote section main-3 */
 
-.main-3-container {
-    height: 400px;
-    /* text-align: center; */
-}
-
 .quote {
     width: 50%;
     margin: 0 auto;
@@ -188,3 +183,12 @@ body {
 
 
 /* footer */
+
+.foot-container {
+    height: 100px;
+    text-align: center;
+}
+
+.foot-copy {
+    padding-top: 40px;
+}
