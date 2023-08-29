@@ -22,7 +22,9 @@ body {
 }
 
 .main-4-container {
-    background-color: #3882f6;
+    background-color: #f9faf8;
+    height: 300px;
+    padding-top: 80px;
 }
 
 .btn {
@@ -170,3 +172,19 @@ body {
     font-size: 26px;
     margin: 10px 900px;
 }
+
+/* cta section */
+
+.bg-color {
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+
+/* footer */
