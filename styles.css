@@ -105,3 +105,45 @@ body {
     font-size: 18px;
     color: #e5e7eb;
 }
+
+/* random information section */
+
+.main-2-container {
+    height: 500px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.random-title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding: 40px;
+}
+
+.random-placehold {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1f2937;
+    margin: 30px;
+}
+
+.image-container {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.random-text {
+    font-size: 18px;
+    margin-top: 15px;
+    text-align: center;
+}
