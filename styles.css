@@ -35,6 +35,10 @@ body {
     margin-top: 10px;
 }
 
+.btn-inverted {
+    border: 1px solid #f9faf8;
+}
+
 /* main-1 header and navigation */
 
 .main-1-container {
