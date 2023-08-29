@@ -147,3 +147,26 @@ body {
     margin-top: 15px;
     text-align: center;
 }
+
+/* quote section main-3 */
+
+.main-3-container {
+    height: 400px;
+    /* text-align: center; */
+}
+
+.quote {
+    width: 50%;
+    margin: 0 auto;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    padding-top: 100px;
+}
+
+.quote-author {
+    width: 60%;
+    color: #1f2937;
+    font-size: 26px;
+    margin: 10px 900px;
+}
